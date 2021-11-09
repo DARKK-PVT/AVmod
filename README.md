@@ -34,8 +34,6 @@ AVmod is a Audiovisual modulator developed as Minor Project for junior year
 * Training will happen for 40000 iterations (default) can be increased to 80000 and more according to requirement.
 
 
-
-
 ## Requirements
 * python 3.6.4
 * tensorflow r1.15.2
@@ -53,4 +51,4 @@ AVmod is a Audiovisual modulator developed as Minor Project for junior year
 * Interface for easy access to training and conversion
 
 ## Acknowledgment
-Code borrows from tjwei, eriklindernoren, fchollet, keras-contrib and reddit user deepfakes' project. The generative network is adopted from CycleGAN. Weights and scripts of MTCNN are from FaceNet. Illustrations are from irasutoya.
+Code borrowed from tjwei, eriklindernoren, fchollet and keras-contrib. The generative network is adopted from CycleGAN. Weights and scripts of MTCNN are from FaceNet
