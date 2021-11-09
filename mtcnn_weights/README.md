@@ -1,1 +1,1 @@
-Weights' files are form https://github.com/davidsandberg/facenet/tree/master/src/align
+Weights' files are from https://github.com/davidsandberg/facenet/tree/master/src/align
