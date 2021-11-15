@@ -52,4 +52,4 @@ AVmod is a Audiovisual modulator developed as Minor Project for junior year
 * GPU support for py files (CUDA)
 
 ## Acknowledgment
-Code borrowed from tjwei, eriklindernoren, fchollet and keras-contrib. The generative network is adopted from CycleGAN. Weights and scripts of MTCNN are from FaceNet
+Code borrowed from tjwei, eriklindernoren, fchollet and keras-contrib. The generative network is adopted from CycleGAN. Weights and scripts of MTCNN are from FaceNet.
