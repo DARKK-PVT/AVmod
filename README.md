@@ -26,7 +26,7 @@ AVmod is a Audiovisual modulator developed as Minor Project for junior year
 * video_conversion.ipynb
   * File-4 
   * Used for video conversion based on training done in train.ipynb
-  * Use five-points landmarks for face alignment.
+  * Use  five-points landmarks for face alignment.
 
 ## Training Data
 * Pick images that are stored in ./facesA/aligned_faces and ./facesB/aligned_faces for each target.
