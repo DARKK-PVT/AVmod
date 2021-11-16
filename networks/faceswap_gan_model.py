@@ -217,15 +217,11 @@ class FaceswapGANModel():
             loss_GA += 10 * cyclic_loss(self.netGA, self.netGB, self.real_A)
             loss_GB += 10 * cyclic_loss(self.netGB, self.netGA, self.real_B)
 
-        # Alpha mask loss
-        if not loss_config['use_mask_hinge_loss']:
-            loss_GA += 1e-2 * K.mean(K.abs(self.mask_A))
-            loss_GB += 1e-2 * K.mean(K.abs(self.mask_B))
-        else:
-            loss_GA += 0.1 * K.mean(K.maximum(0., loss_config['m_mask'] - self.mask_A))
-            loss_GB += 0.1 * K.mean(K.maximum(0., loss_config['m_mask'] - self.mask_B))
-
-        # Alpha mask total variation loss
+        # Alpha mask loss     
+        loss_GA += 1e-2 * K.mean(K.abs(self.mask_A))
+        loss_GB += 1e-2 * K.mean(K.abs(self.mask_B))
+        
+        # Alpha mask total edge variation loss 
         loss_GA += 0.1 * K.mean(first_order(self.mask_A, axis=1))
         loss_GA += 0.1 * K.mean(first_order(self.mask_A, axis=2))
         loss_GB += 0.1 * K.mean(first_order(self.mask_B, axis=1))
