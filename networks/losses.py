@@ -4,7 +4,7 @@ from .instance_normalization import InstanceNormalization
 import keras.backend as K
 import tensorflow as tf
 
-def first_order(x, axis=1):
+def first_order(x, axis=1):         # This calculates EDGE shift error, refer readme fo intuition.
     img_nrows = x.shape[1]
     img_ncols = x.shape[2]
     if axis == 1:
