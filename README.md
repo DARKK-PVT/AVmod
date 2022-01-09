@@ -1,8 +1,12 @@
 # AVmod
-AVmod is a Audiovisual modulator developed as Minor Project for junior year
+AVmod is a Audiovisual modulator developed as Project for Third year
 
 * AVmod uses LSGAN and cyclic GAN to achieve the functionality of face swaping and voice modulation
-
+# Contributors 
+* Himanshu
+* Jai
+* Karan
+* Sagar
 ## Description
 * [MTCNN_face_detection.ipynb](MTCNN_face_detection.ipynb)
   * File-1 
