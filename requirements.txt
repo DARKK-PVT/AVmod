@@ -4,7 +4,7 @@ Keras==2.1.5
 keras_vggface==0.6
 matplotlib==3.3.4
 moviepy==1.0.3
-numpy==1.19.5
+numpy==1.22.0
 opencv_python==4.5.4.58
 Pillow==8.4.0
 PyYAML==6.0
